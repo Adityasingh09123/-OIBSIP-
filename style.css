@@ -1,0 +1,98 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  /* background-color: black; */
+  /* background-color: #136fac; */
+  /* background-color: aquamarine; */
+}
+.container{
+    padding: 10px;
+    margin: auto;
+    background-color:#008080 ;
+    width: 350px;
+    height: 325px;
+    border-radius: 10px;
+    box-shadow: 0 25px 60px -10px rgba(0, 0, 0, 0.5);
+}
+.calculator-button{
+  margin: auto;
+  width: 100%;
+  height: 75%;
+  margin-top: 28px;
+}
+#btn-clr{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(50deg, #4c04a3, #136fac);
+  color: white;
+  border: solid black 0.5px;
+  width: 100%;
+  border-radius: 3px;
+  height: 45px;
+}
+#result{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #dcdbe1;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    width: 280px;
+    height: 45px;
+    text-align: right;
+    cursor: pointer;
+}
+
+#btn {
+    background: linear-gradient(60deg, #ff0300, #ffa100);
+    border-radius: 3px;
+    color: #ffffff;
+    box-shadow: 0 25px 60px -10px rgba(255, 10, 0, 0.5);
+} 
+#btn:hover{
+  color: black;
+  background:wheat;
+}
+#btn-clr:hover{
+  color: black;
+  background:red;
+}
+
+.calculator-button  input{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(60deg, #b92083, #1497d8);
+    color: white;
+    border: solid black 0.5px;
+    width: 95%;
+    border-radius: 3px;
+    height: 95%;
+}
+.calculator-button input:hover{
+  color: black;
+  background:wheat;
+}
+.calculator-button .btn {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  background: linear-gradient(60deg, #ff0300, #ffa100);
+  color: white;
+  border: solid black 0.5px;
+  width: 95%;
+  border-radius: 3px;
+  height: 95%;
+  margin-right: -12px;
+}
