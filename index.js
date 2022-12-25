@@ -1,4 +1,4 @@
-console("Mathmatical calculation of the calculator is performed by the code part of javaScript");
+console("Mathematical calculation of the calculator is performed by the code part of javaScript");
 
 // Clear all the inputs of the screen
 function ClearAll() {
@@ -10,10 +10,10 @@ function display(value) {
     document.getElementById("result").value += value;
 }
 
-//Calculate the Mathmatical expression
+//Calculate the Mathematical expression
 function calculate() {
     var firstInput = document.getElementById("result").value;
-    //Evaluate the Mathmatical calculation
+    //Evaluate the Mathematical calculation
     var secondInput = eval(firstInput);
     document.getElementById("result").value = secondInput;
 }
